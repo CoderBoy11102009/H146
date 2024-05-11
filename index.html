@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene background="color: #000000">
+        <!--Camera-->
+        <a-entity position="0 0 15">
+            <a-camera></a-camera>
+        </a-entity>
+
+        <!--Head-->
+        <a-entity position="0 0 0">
+            <a-box position="0 5 -5" color="red" width="3" height="3"></a-box>
+        </a-entity>
+
+        <!--Body-->
+        <a-entity position="0 0 0">
+            <a-box position="0 -1 -5" color="blue" width="5" height="8.5"></a-box>
+        </a-entity>
+
+        <!--Right Arm-->
+        <a-entity position="0 0 0">
+            <a-box position="-3.5 -0.3 -5" color="yellow" width="2" height="7"></a-box>
+        </a-entity>
+
+        <!--Left Arm-->
+        <a-entity position="0 0 0">
+            <a-box position="3.5 -0.3 -5" color="yellow" width="2" height="7"></a-box>
+        </a-entity>
+
+        <!--Right Leg-->
+        <a-entity position="0 0 0">
+            <a-box position="-1.5 -10 -5" color="green" width="2" height="9"></a-box>
+        </a-entity>
+
+        <!--Left Leg-->
+        <a-entity position="0 0 0">
+            <a-box position="1.5 -10 -5" color="green" width="2" height="9"></a-box>
+        </a-entity>
+    </a-scene>
+</body>
